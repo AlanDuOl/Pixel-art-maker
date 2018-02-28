@@ -1,1 +1,10 @@
-//styles
+body, main {
+  max-width: 800px;
+  width: 100%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.letter-size {
+  font-size: 4rem;
+}
