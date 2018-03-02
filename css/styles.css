@@ -8,19 +8,3 @@ body, main {
 .letter-size {
   font-size: 4rem;
 }
-
-/* .cells-border {
-  border: 1px solid black;
-} */
-
-td {
-  border: 1px solid black;
-  width: 15px;
-  height: 15px;
-
-}
-
-table {
-  margin: 0 auto;
-  border-collapse: collapse;
-}
