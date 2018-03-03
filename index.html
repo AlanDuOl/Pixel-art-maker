@@ -7,17 +7,20 @@
     <title>Pixel Art Maker</title>
     <link href="css/styles.css" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script>
+
+    </script>
 		<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
   </head>
   <body>
     <main>
       <h1 class="letter-size">Pixel Art Maker</h1>
       <h2>Choose a grid size</h2>
-      <form id="updateForm" method="post" action="index.html">
+      <form onsubmit="onSubmit();" id="submitForm" method="post" name="submitForm">
         Grid width:
-        <input type="number" id="width-value" name="width" min="1" value="20">
+        <input type="number" id="width-value" name="width" min="1" value="10">
         Grid height:
-        <input type="number" id="height-value" name="height" min="1" value="20">
+        <input type="number" id="height-value" name="height" min="1" value="10">
         <input id="submit-btn" type="submit" value="Generate Grid">
       </form>
       <h2>Pick a color</h2>
