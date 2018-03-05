@@ -1,35 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0,
-    initial-scale=1.0, user-scalable=yes">
-    <title>Pixel Art Maker</title>
-    <link href="css/styles.css" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <script>
-
-    </script>
-		<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-  </head>
-  <body>
-    <main>
-      <h1 class="letter-size">Pixel Art Maker</h1>
-      <h2>Choose a grid size</h2>
-      <form onsubmit="onSubmit();" id="submitForm" method="post" name="submitForm">
-        Grid width:
-        <input type="number" id="width-value" name="width" min="1" value="10">
-        Grid height:
-        <input type="number" id="height-value" name="height" min="1" value="10">
-        <input id="submit-btn" type="submit" value="Generate Grid">
-      </form>
-      <h2>Pick a color</h2>
-      <input type="color" id="picked-color">
-      <h2>Draw something</h2>
-      <table id="canvas"></table>
-    </main>
-    <footer>
-    </footer>
-    <script src="js/designs.js"></script>
-  </body>
 <html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <script rel="stylesheet" href="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="10">
+        Grid Width:
+        <input type="number" id="inputWidth" name="width" min="1" value="10">
+        <input type="submit">
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+
+    <script src="designs.js"></script>
+</body>
+</html>
