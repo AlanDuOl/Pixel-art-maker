@@ -1,27 +1,40 @@
-
-body, main {
-  max-width: 800px;
-  width: 100%;
-  margin: 5% auto;
-  text-align: center;
+body {
+    text-align: center;
 }
 
-.letter-size {
-  font-size: 4rem;
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
 }
 
-/* .cells-border {
-  border: 1px solid black;
-} */
+h2 {
+    margin: 1em 0 0.25em;
+}
 
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
 td {
-  border: 1px solid black;
-  width: 15px;
-  height: 15px;
-
+    border: 1px solid black;
 }
 
 table {
-  margin: 0 auto;
-  border-collapse: collapse;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
 }
