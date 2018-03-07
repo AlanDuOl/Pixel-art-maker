@@ -39,6 +39,7 @@ function makeGrid() {
 }
 
 //Return the submitted values for grid dimentions
+//This function has been taken from stackoverflow under the link:https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
